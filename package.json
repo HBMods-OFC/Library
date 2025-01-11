@@ -1,7 +1,7 @@
 {
   "name": "hbwabot",
   "version": "6.7.9",
-  "description": "WhatsApp API Fixed By Ssa Team && HBMods-OFC", 
+  "description": "WhatsApp API Fixed By Ssa Team && HBMods-OFC",
   "keywords": [
     "whatsapp",
     "js-whatsapp",
@@ -12,7 +12,7 @@
   ],
   "homepage": "https://github.com/WhiskeySockets/Baileys",
   "repository": {
-    "url": "git@github.com:WhiskeySockets/Baileys.git"
+    "url": "git+ssh://git@github.com/WhiskeySockets/Baileys.git"
   },
   "license": "MIT",
   "author": "HBMods",
@@ -98,5 +98,11 @@
       "optional": true
     }
   },
-  "packageManager": "yarn@1.22.19"
+  "packageManager": "yarn@1.22.19",
+  "directories": {
+    "lib": "lib"
+  },
+  "bugs": {
+    "url": "https://github.com/WhiskeySockets/Baileys/issues"
+  }
 }
